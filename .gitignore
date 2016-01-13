@@ -1,0 +1,49 @@
+# Vim 
+*.swp
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Generated Images
+*.ppm
+
+# Prog 1
+prog1_mandelbrot_threads/mandelbrot
+
+# Prog2
+prog2_vecintrin/myexp
+
+# Prog3
+prog3_mandelbrot_ispc/mandelbrot_ispc
+
+# Prog4
+prog4_sqrt/sqrt
+
+# Prog5
+prog5_saxpy/saxpy
