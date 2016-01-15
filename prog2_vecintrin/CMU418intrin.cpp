@@ -137,7 +137,7 @@ void _cmu418_vsub(__cmu418_vec<T> &vecResult, __cmu418_vec<T> &veca, __cmu418_ve
   for (int i=0; i<VECTOR_WIDTH; i++) {
     vecResult.value[i] = mask.value[i] ? (veca.value[i] - vecb.value[i]) : vecResult.value[i];
   }
-  CMU418Logger.addLog("vadd", mask, VECTOR_WIDTH);
+  CMU418Logger.addLog("vsub", mask, VECTOR_WIDTH);
 }
 
 template void _cmu418_vsub<float>(__cmu418_vec_float &vecResult, __cmu418_vec_float &veca, __cmu418_vec_float &vecb, __cmu418_mask &mask);
