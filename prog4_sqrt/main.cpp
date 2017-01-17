@@ -44,7 +44,7 @@ int main() {
     // minimum time.
     //
     double minSerial = 1e30;
-    for (int i = 0; i < 3; ++i) {
+    for (int i = 0; i < 5; ++i) {
         double startTime = CycleTimer::currentSeconds();
         sqrtSerial(N, initialGuess, values, output);
         double endTime = CycleTimer::currentSeconds();
@@ -60,7 +60,7 @@ int main() {
     // time of three runs.
     //
     double minISPC = 1e30;
-    for (int i = 0; i < 3; ++i) {
+    for (int i = 0; i < 5; ++i) {
         double startTime = CycleTimer::currentSeconds();
         sqrt_ispc(N, initialGuess, values, output);
         double endTime = CycleTimer::currentSeconds();
